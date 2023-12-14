@@ -31,7 +31,7 @@ GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had trouble coming up with the secret key for Task 3 and quickly came to realize that I was getting tricked by the multiple choice question. Furthermore, I had trouble implementing the logic for the search bar.
 
 ## License
 
