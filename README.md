@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![WEB102-PREWORK](https://github.com/ahmadbasyouni10/web102_prework/assets/120362910/69ba31d0-e468-4eb5-9dd2-945454b6616f.gif){:autoplay}
+![WEB102-PREWORK](https://github.com/ahmadbasyouni10/web102_prework/assets/120362910/69ba31d0-e468-4eb5-9dd2-945454b6616f.gif)
 
 GIF created with ScreenToGif
 
