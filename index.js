@@ -234,3 +234,22 @@ firstGameContainer.innerHTML = topfunded;
 secondGameContainer.innerHTML = secondfunded;
 
 // do the same for the runner up item
+
+const searchInput = document.getElementById("search-input");
+const searchButton = document.getElementById("search-btn");
+
+// add event listeners for the "Search" button and the Enter key
+searchButton.addEventListener("click", handleSearch);
+searchInput.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        handleSearch();
+    }
+});
+
+function handleSearch() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const matchedGames = GAMES_JSON.filter(game => game.name.toLowerCase().includes(searchTerm));
+
+    deleteChildElements(gamesContainer);
+    addGamesToPage(matchedGames);
+}
